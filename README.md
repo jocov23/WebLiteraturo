@@ -34,11 +34,11 @@
   ```
 1. **Clone the repository:**
   ```
-    git clone https://github.com/jocov23/catalogo-livros.git
+    git clone https://github.com/jocov23/WebLiteraturo.git
   ``` 
 2. **Go to the project directory**
   ```
-    cd catalogo-livros
+    cd WebLiteraturo
   ```
 3. **Initialize the containers**
   ```
