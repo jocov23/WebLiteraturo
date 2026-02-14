@@ -52,7 +52,7 @@
 ## Contact
   - **E-mail:** jocov2309@gmail.com
 
-  - **LinkedIn:** https://www.linkedin.com/in/joao-vitor-de-freitas-barbosa/
+  - **LinkedIn:** linkedin.com/in/joao-vitor-freitasb 
 
   - **Discord:** jocov23
 ---
