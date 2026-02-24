@@ -61,7 +61,7 @@
         <hr><br><br>
         {% if user.is_authenticated %}
         <h4>Adicione uma sinopse:</h3>
-        <form method="POST">
+        <form method="POST" autocomplete="off">
             {% csrf_token %}
             <textarea name="conteudo"  cols="150" placeholder="Escreva sua sinopse aqui"></textarea>
             <button type="submit">Enviar</button>

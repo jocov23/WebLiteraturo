@@ -30,7 +30,7 @@
         <div class="formCapa">
             <h1>Adicionar capa para "{{ livro.titulo }}" </h1>
         
-            <form method="POST" enctype="multipart/form-data">
+            <form method="POST" enctype="multipart/form-data" autocomplete="off">
                 {% csrf_token %}
 
                 <label for="imagem">Selecione a imagem da capa:</label>

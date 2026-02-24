@@ -30,3 +30,5 @@
     25.1.add grouping tags
     25.2.clear unused <divs>
     25.3.fix css sintax
+    25.4.fix class/id tags
+26.add media queries (mobile-first)

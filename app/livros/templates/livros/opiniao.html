@@ -59,7 +59,7 @@
         <hr><br><br>
         {% if user.is_authenticated %}
         <h4>Adicione uma opinião:</h3>
-        <form method="POST">
+        <form method="POST" autocomplete="off">
             {% csrf_token %}
             <textarea name="conteudo"  cols="150" placeholder="Escreva sua opinião aqui"></textarea>
             <button type="submit">Enviar</button>
