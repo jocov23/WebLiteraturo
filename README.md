@@ -1,4 +1,4 @@
-# Catalogo de livros (Book catalog)
+# WebLiteraturo
   This project is a full-stack web application built with the Django Framework to catalog my personal bookshelf with a bit of other features, like the registration, listing and information specifying of books together with a user registration-login system
   
   When you clone this repository you will see that its database is filled with books, which reflects how many I have as of 01/14/2026, you can delete them all on the admin page (login details are in guide.txt) for your own use
@@ -34,11 +34,11 @@
   ```
 1. **Clone the repository:**
   ```
-    git clone https://github.com/jocov23/catalogo-livros.git
+    git clone https://github.com/jocov23/WebLiteraturo.git
   ``` 
 2. **Go to the project directory**
   ```
-    cd catalogo-livros
+    cd WebLiteraturo
   ```
 3. **Initialize the containers**
   ```
@@ -52,7 +52,7 @@
 ## Contact
   - **E-mail:** jocov2309@gmail.com
 
-  - **LinkedIn:** https://www.linkedin.com/in/joao-vitor-de-freitas-barbosa/
+  - **LinkedIn:** linkedin.com/in/joao-vitor-freitasb 
 
   - **Discord:** jocov23
 ---
