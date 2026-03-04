@@ -32,3 +32,6 @@
     25.3.fix css sintax
     25.4.fix class/id tags
 26.add media queries (mobile-first)
+27.exclude trivial data from cadastrados.json
+28.automate the data saving and add in the README to copy the initial.data to see the books previously registered
+29.test the changes in another pc
