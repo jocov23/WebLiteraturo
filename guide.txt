@@ -1,24 +1,40 @@
-Django admin:
+
+
+DJANGO ADMIN (http://localhost:8000/admin/)
 user:admin
 password:admin
+ #to create other superuser(admin) you need to enter container 'web' bash with "docker-compose exec web bash" and after that
+ #type "python manage.py createsuperuser", just enter your credentials then and refresh page
 
-#-d == run on background
-#--build == rebuild all containers
+HOW TO START THE CONTAINERS
 docker-compose up -d --build == initiate and start all the containers contained in the .yaml file
+    #-d == run on background
+    #--build == rebuild all containers
+    #ps: its ok to show error when initializing the containers in the terminal, its because the container web start before
+    #ps: container db, but its alright because its supossed to initialize sucefully even with that happening
 
+HOW TO LOAD ALREADY REGISTERED BOOKS
+    #type 'docker-compose exec web bash' and then 'python manage.py loaddata fixtures/livros_nativos.json'
+    #refresh page after that
+
+
+ERROR:
 #if Error response from daemon: Ports are not available: exposing port TCP 0.0.0.0:3306 -> 127.0.0.1:0: listen tcp 0.0.0.0:3306: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
 ===try killing each process running in background related to mysql and restart containers
 
-#if container web command doesn't run automatically(idk why):
-docker-compose exec web bash == enter the CLI of the "web" container
-python manage.py runserver 0.0.0.0:8000 == start the django application contained in the "web" container
+GUIDE FOR SAVING YOUR BOOKS IN THE FIXTURES(aditional-backup)
+    -When added a book/synopsis/opinion type 'docker-compose down'(or press Control+c) in the terminal 
+    -after the containers are removed/stopped, start them again (voilá! your books are saved now in the livros_locais.json)
 
-
-small guide
+SMALL GUIDE TO UNDERSTAND THE CODE
  =docker-compose.yaml orchestrate the creation of 2 containers: web(django app) and bd(mysql instance)
  =dockerfile is the file which the container web use to its own creation, requirements and .env the same thing
- =urls when activated run a especific function(views) wich can contain CRUD operations or HTML templates
+ =urls when activated run a especific function(views) wich can contain CRUD operations or/and HTML templates
  =views are functions that interact with models
  =models are variables stored in a database through a django-rest-framework
+
+ GUIDE FOR MYSELF(save books into livros_nativos.json)
+    docker-compose exec web bash
+    python manage.py dumpdata --exclude admin.logentry --exclude sessions.session --exclude contenttypes --exclude auth.permission --indent 2 > fixtures/livros_nativos.json
 
  

@@ -1,0 +1,980 @@
+[
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$DCehbgSRC4I9uZz2nk1mfu$wu+PKN/GPjE3kSzZoqSIN+rVq4m2GpS3G7HtDU3LZFk=",
+    "last_login": "2026-03-02T17:26:34.787Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@email.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-05-04T20:45:49.996Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$HjysElgEScsGWX8HiU2hTs$/wQABa5z5N2P4ccwaxlmIwfEPcKmDhFdGnppgBRjXXg=",
+    "last_login": "2025-05-29T18:48:42.409Z",
+    "is_superuser": false,
+    "username": "User1",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-05-29T18:10:27.337Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$TqHdp6Lyeu0D19Gekbvafu$+HDUqbNxqbB2brr/eMi7ojg1L/k8f3gvRJaameochBk=",
+    "last_login": "2025-09-12T21:04:25.186Z",
+    "is_superuser": false,
+    "username": "user",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-15T18:55:19.706Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$N0YiIyWzP5djR2STfiiFB2$V1gtctvDZnRIZeIABdhSX4naep0eKNvD2rgcU0na3zU=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "user2",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-15T18:59:24.637Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$QHMRJ7ovrDiNgHsOH5DwwJ$NJks0aE1ocdOrU5x/vFLqBvXtFhheI6aj5Z0YzxFaPs=",
+    "last_login": "2026-03-02T17:26:07.457Z",
+    "is_superuser": false,
+    "username": "a",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-16T17:55:56.823Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$VC4EVPxHkY1suJDW0A7XTR$odI72bs1ntuI1faz/3T5GR/SOfzWtVefakAo114wK4c=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "b",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-16T17:56:26.008Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 7,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$bheAiaQVvku76RlNu95KJI$V6NKmCXrww6orGQ07do96F6WOmUB1MJeW8I1lf92lFc=",
+    "last_login": "2025-07-17T20:09:05.572Z",
+    "is_superuser": false,
+    "username": "c",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-17T20:08:53.122Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 8,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$fnkIGeIjvwCnqtqMo2cR4i$jlVNSP/40iJISn5o1c0J4hJxuE8TphgJELTkmktzLzU=",
+    "last_login": "2026-01-06T17:04:21.205Z",
+    "is_superuser": false,
+    "username": "JOCOV",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-09-12T21:15:30.635Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 9,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$EQKNnY7dSYwpNTjt9bMEF3$+5V3uwWIJKb22SMRVVrjfPPMCbyJVmlhPU8w0moIDgc=",
+    "last_login": "2026-03-05T19:59:39.653Z",
+    "is_superuser": true,
+    "username": "jocov2",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-03-05T19:59:21.916Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 31,
+  "fields": {
+    "titulo": "Atlas de Anatomia e Saúde",
+    "autor": "Xavier Crespo, Nuria Curell, Jordi Curell",
+    "ano_publicacao": 1990,
+    "editora": "Bolsa Nacional do Livro",
+    "criado_em": "2026-01-14T23:54:48.803Z",
+    "slug": "atlas-de-anatomia-e-saude",
+    "imagem": "livros/atlas.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 32,
+  "fields": {
+    "titulo": "O grande livro do corpo humano",
+    "autor": "X",
+    "ano_publicacao": 2023,
+    "editora": "Camelot",
+    "criado_em": "2026-01-14T23:58:21.606Z",
+    "slug": "o-grande-livro-do-corpo-humano",
+    "imagem": "livros/corpoHumano.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 33,
+  "fields": {
+    "titulo": "Compreendendo a deficiência mental",
+    "autor": "Maria Teresa Egler Mantoan",
+    "ano_publicacao": 1989,
+    "editora": "Scipione",
+    "criado_em": "2026-01-15T00:00:26.408Z",
+    "slug": "compreendendo-a-deficiencia-mental",
+    "imagem": "livros/defiMental.webp"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 34,
+  "fields": {
+    "titulo": "Psicologia aplicada de Freud",
+    "autor": "X",
+    "ano_publicacao": 2023,
+    "editora": "BoraLê",
+    "criado_em": "2026-01-15T00:02:13.699Z",
+    "slug": "psicologia-aplicada-de-freud",
+    "imagem": "livros/freud.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 35,
+  "fields": {
+    "titulo": "Teorias sociológicas modernas e pós-modernas",
+    "autor": "Corina A.Bezerra, Carril Ribeiro",
+    "ano_publicacao": 2016,
+    "editora": "Intersaberes",
+    "criado_em": "2026-01-15T00:05:03.671Z",
+    "slug": "teorias-sociologicas-modernas-e-pos-modernas",
+    "imagem": "livros/teoriasSocio.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 36,
+  "fields": {
+    "titulo": "Psicologia do Desenvolvimento",
+    "autor": "Ercilia Maria, Fernando Wolf",
+    "ano_publicacao": 2009,
+    "editora": "IESDE",
+    "criado_em": "2026-01-15T00:07:53.223Z",
+    "slug": "psicologia-do-desenvolvimento",
+    "imagem": "livros/psicodesen.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 37,
+  "fields": {
+    "titulo": "Introdução a sociologia da educação",
+    "autor": "Karl Mannheim, W.A.C Stewart",
+    "ano_publicacao": 1972,
+    "editora": "Cultrix",
+    "criado_em": "2026-01-15T00:29:25.297Z",
+    "slug": "introducao-a-sociologia-da-educacao",
+    "imagem": "livros/karlmanhheim.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 38,
+  "fields": {
+    "titulo": "Pai rico pai pobre",
+    "autor": "Robert T.Kiyosaki",
+    "ano_publicacao": 2017,
+    "editora": "Alta books",
+    "criado_em": "2026-01-15T00:30:55.904Z",
+    "slug": "pai-rico-pai-pobre",
+    "imagem": "livros/pairico.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 39,
+  "fields": {
+    "titulo": "Fundamentos de Economia",
+    "autor": "Marco Antonio S Vasconcellos, Manuel E. Garcia",
+    "ano_publicacao": 1998,
+    "editora": "Saraiva",
+    "criado_em": "2026-01-15T00:32:09.717Z",
+    "slug": "fundamentos-de-economia",
+    "imagem": "livros/fundamentosEconomia.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 40,
+  "fields": {
+    "titulo": "Mercado Financeiro",
+    "autor": "  Gilson Oliveira, Marcelo Pacheco",
+    "ano_publicacao": 2005,
+    "editora": "Fundamento",
+    "criado_em": "2026-01-15T00:33:16.324Z",
+    "slug": "mercado-financeiro",
+    "imagem": "livros/mercfinan.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 41,
+  "fields": {
+    "titulo": "O homem mais rico da Babilônia",
+    "autor": "George S.Clason",
+    "ano_publicacao": 2017,
+    "editora": "Harper Collins",
+    "criado_em": "2026-01-15T00:34:34.583Z",
+    "slug": "o-homem-mais-rico-da-babilonia",
+    "imagem": "livros/homembabilonia.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 42,
+  "fields": {
+    "titulo": "O livro dos cinco anéis",
+    "autor": "Miyamoto Musashi",
+    "ano_publicacao": 2023,
+    "editora": "Camelot",
+    "criado_em": "2026-01-15T00:37:01.926Z",
+    "slug": "o-livro-dos-cinco-aneis",
+    "imagem": "livros/musashi.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 43,
+  "fields": {
+    "titulo": "A origem da família, da propriedade privada e do estado",
+    "autor": "Engels",
+    "ano_publicacao": 2017,
+    "editora": "Lafonte",
+    "criado_em": "2026-01-15T00:44:00.086Z",
+    "slug": "a-origem-da-familia-da-propriedade-privada-e-do-estado",
+    "imagem": "livros/engels_B1AhV9f.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 44,
+  "fields": {
+    "titulo": "A república",
+    "autor": "Platão",
+    "ano_publicacao": 2020,
+    "editora": "Lafonte",
+    "criado_em": "2026-01-15T00:45:44.407Z",
+    "slug": "a-republica",
+    "imagem": "livros/platao.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 45,
+  "fields": {
+    "titulo": "Nietzsche- Os Pensadores",
+    "autor": "Nietzsche",
+    "ano_publicacao": 1974,
+    "editora": "Abril Cultural",
+    "criado_em": "2026-01-15T00:47:58.099Z",
+    "slug": "nietzsche-os-pensadores",
+    "imagem": "livros/ospensadores.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 46,
+  "fields": {
+    "titulo": "A gaia Ciência",
+    "autor": "Nietzsche",
+    "ano_publicacao": 2020,
+    "editora": "Lafonte",
+    "criado_em": "2026-01-15T00:48:46.241Z",
+    "slug": "a-gaia-ciencia",
+    "imagem": "livros/gaiaciencia.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 47,
+  "fields": {
+    "titulo": "Assim falava zaratustra",
+    "autor": "Nietzsche",
+    "ano_publicacao": 2017,
+    "editora": "Lafonte",
+    "criado_em": "2026-01-15T00:50:05.021Z",
+    "slug": "assim-falava-zaratustra",
+    "imagem": "livros/zaratustra.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 48,
+  "fields": {
+    "titulo": "Meditações",
+    "autor": "Marco Aurelio",
+    "ano_publicacao": 2019,
+    "editora": "edipro",
+    "criado_em": "2026-01-15T00:51:16.635Z",
+    "slug": "meditacoes",
+    "imagem": "livros/meditacoes.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 49,
+  "fields": {
+    "titulo": "Manual de Epicteto",
+    "autor": "Epicteto",
+    "ano_publicacao": 2021,
+    "editora": "edipro",
+    "criado_em": "2026-01-15T00:52:14.809Z",
+    "slug": "manual-de-epicteto",
+    "imagem": "livros/manualepicteto.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 50,
+  "fields": {
+    "titulo": "A sabedoria de Sêneca",
+    "autor": "Sêneca",
+    "ano_publicacao": 2021,
+    "editora": "Excelsior",
+    "criado_em": "2026-01-15T00:53:29.617Z",
+    "slug": "a-sabedoria-de-seneca",
+    "imagem": "livros/sabedoriaseneca.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 51,
+  "fields": {
+    "titulo": "O príncipe",
+    "autor": "Maquiavel",
+    "ano_publicacao": 2009,
+    "editora": "Icone",
+    "criado_em": "2026-01-15T00:55:32.609Z",
+    "slug": "o-principe",
+    "imagem": "livros/maquiavel.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 52,
+  "fields": {
+    "titulo": "A arte da guerra",
+    "autor": "Sun Tzu",
+    "ano_publicacao": 2019,
+    "editora": "Lafonte",
+    "criado_em": "2026-01-15T00:56:19.186Z",
+    "slug": "a-arte-da-guerra",
+    "imagem": "livros/suntzu.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 53,
+  "fields": {
+    "titulo": "Manifesto do partido comunista",
+    "autor": "Karl Marx, Engels",
+    "ano_publicacao": 2018,
+    "editora": "Lafonte",
+    "criado_em": "2026-01-15T00:57:19.769Z",
+    "slug": "manifesto-do-partido-comunista",
+    "imagem": "livros/manifesto.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 54,
+  "fields": {
+    "titulo": "A lei - Por que a esquerda não funciona",
+    "autor": "Frédéric Bastiat",
+    "ano_publicacao": 2016,
+    "editora": "Faro Editorial",
+    "criado_em": "2026-01-15T00:58:39.206Z",
+    "slug": "a-lei-por-que-a-esquerda-nao-funciona",
+    "imagem": "livros/alei.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 55,
+  "fields": {
+    "titulo": "Batman - A corte das corujas",
+    "autor": "Scott Snyder",
+    "ano_publicacao": 2014,
+    "editora": "Panini",
+    "criado_em": "2026-01-15T01:00:38.643Z",
+    "slug": "batman-a-corte-das-corujas",
+    "imagem": "livros/batman.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 56,
+  "fields": {
+    "titulo": "O espetacular Homem-Aranha -  De volta ao lar",
+    "autor": "Jhon Romita Jr",
+    "ano_publicacao": 2013,
+    "editora": "Panini",
+    "criado_em": "2026-01-15T01:07:03.182Z",
+    "slug": "o-espetacular-homem-aranha-de-volta-ao-lar",
+    "imagem": "livros/homemaranha1.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 57,
+  "fields": {
+    "titulo": "Homem-Aranha - Entre Trovões",
+    "autor": "Christopher L.Bennett",
+    "ano_publicacao": 2016,
+    "editora": "Novo Século",
+    "criado_em": "2026-01-15T01:11:15.035Z",
+    "slug": "homem-aranha-entre-trovoes",
+    "imagem": "livros/entretrovoes.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 58,
+  "fields": {
+    "titulo": "Da utilidade e do inconveniente da História para a vida",
+    "autor": "Nietzsche",
+    "ano_publicacao": 2008,
+    "editora": "Escala",
+    "criado_em": "2026-01-15T01:12:51.202Z",
+    "slug": "da-utilidade-e-do-inconveniente-da-historia-para-a-vida",
+    "imagem": "livros/utilidadehistoria.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 59,
+  "fields": {
+    "titulo": "Historia geral",
+    "autor": "X",
+    "ano_publicacao": 1965,
+    "editora": "Companhia Editora Nacional",
+    "criado_em": "2026-01-15T01:14:54.231Z",
+    "slug": "historia-geral",
+    "imagem": ""
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 60,
+  "fields": {
+    "titulo": "Crepúsculo dos ídolos",
+    "autor": "Nietzsche",
+    "ano_publicacao": 2023,
+    "editora": "Camelot",
+    "criado_em": "2026-01-15T01:16:15.837Z",
+    "slug": "crepusculo-dos-idolos",
+    "imagem": "livros/idoloscrepusculo.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 61,
+  "fields": {
+    "titulo": "Oscar Wilde - Contos",
+    "autor": "Oscar Wilde",
+    "ano_publicacao": 1988,
+    "editora": "Minha ",
+    "criado_em": "2026-01-15T01:18:46.732Z",
+    "slug": "oscar-wilde-contos",
+    "imagem": "livros/contososcarwilde.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 62,
+  "fields": {
+    "titulo": "Memórias de um burro",
+    "autor": "Condêssa de Ségur",
+    "ano_publicacao": 1973,
+    "editora": "Editora do Brasil",
+    "criado_em": "2026-01-15T01:21:08.027Z",
+    "slug": "memorias-de-um-burro",
+    "imagem": "livros/memoriasburro.webp"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 63,
+  "fields": {
+    "titulo": "O chamado de Cthulhu e outras histórias estranhas",
+    "autor": "Hp Lovecraft",
+    "ano_publicacao": 2022,
+    "editora": "Lafonte",
+    "criado_em": "2026-01-15T01:26:12.904Z",
+    "slug": "o-chamado-de-cthulhu-e-outras-historias-estranhas",
+    "imagem": "livros/ctulhu.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 64,
+  "fields": {
+    "titulo": "Contos Novos",
+    "autor": "Mario de Andrade",
+    "ano_publicacao": 1996,
+    "editora": "Villa Rica",
+    "criado_em": "2026-01-15T01:27:29.374Z",
+    "slug": "contos-novos",
+    "imagem": "livros/contosnovos.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 65,
+  "fields": {
+    "titulo": "O retrato de Dorian Gray",
+    "autor": "Oscar Wilde",
+    "ano_publicacao": 2023,
+    "editora": "Pé da letra",
+    "criado_em": "2026-01-15T01:29:31.083Z",
+    "slug": "o-retrato-de-dorian-gray",
+    "imagem": "livros/retradodoriangray.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 66,
+  "fields": {
+    "titulo": "São Bernardo",
+    "autor": "Graciliano Ramos",
+    "ano_publicacao": 1974,
+    "editora": "Martins",
+    "criado_em": "2026-01-15T01:31:36.147Z",
+    "slug": "sao-bernardo",
+    "imagem": "livros/saobernardo.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 67,
+  "fields": {
+    "titulo": "Poe - Histórias extraordinarias",
+    "autor": "Edgar Allan Poe",
+    "ano_publicacao": 1981,
+    "editora": "Abril Cultural",
+    "criado_em": "2026-01-15T01:33:19.782Z",
+    "slug": "poe-historias-extraordinarias",
+    "imagem": "livros/poe.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 68,
+  "fields": {
+    "titulo": "O gato preto e outros contos extraordinarios",
+    "autor": "Edgar Allan Poe",
+    "ano_publicacao": 2021,
+    "editora": "Camelot",
+    "criado_em": "2026-01-15T01:34:34.782Z",
+    "slug": "o-gato-preto-e-outros-contos-extraordinarios",
+    "imagem": "livros/gatopreto.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 69,
+  "fields": {
+    "titulo": "Sete desafios para ser rei",
+    "autor": "Jan Terlouw",
+    "ano_publicacao": 2012,
+    "editora": "Ática",
+    "criado_em": "2026-01-15T01:36:35.520Z",
+    "slug": "sete-desafios-para-ser-rei",
+    "imagem": "livros/setedesafios.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 70,
+  "fields": {
+    "titulo": "Memórias Póstumas de Brás Cubas",
+    "autor": "Machado de Assis",
+    "ano_publicacao": 2019,
+    "editora": "Lafonte",
+    "criado_em": "2026-01-15T01:37:43.592Z",
+    "slug": "memorias-postumas-de-bras-cubas",
+    "imagem": "livros/memoriaspostumas.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 71,
+  "fields": {
+    "titulo": "Quincas Borbas",
+    "autor": "Machado de Assis",
+    "ano_publicacao": 2019,
+    "editora": "Principis",
+    "criado_em": "2026-01-15T01:38:47.725Z",
+    "slug": "quincas-borbas",
+    "imagem": "livros/quincas.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 72,
+  "fields": {
+    "titulo": "O Pequeno Príncipe",
+    "autor": "Antoine de Saint-Exupéry",
+    "ano_publicacao": 2015,
+    "editora": "Edipro",
+    "criado_em": "2026-01-15T01:40:56.246Z",
+    "slug": "o-pequeno-principe",
+    "imagem": "livros/peqquenoprincipe.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 73,
+  "fields": {
+    "titulo": "PANC 2 - plantas alimentícias não convencionais",
+    "autor": "Marilua Feitoza",
+    "ano_publicacao": 0,
+    "editora": "Europa",
+    "criado_em": "2026-01-15T01:44:23.318Z",
+    "slug": "panc-2-plantas-alimenticias-nao-convencionais",
+    "imagem": "livros/panc2.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 74,
+  "fields": {
+    "titulo": "Universidade Hacker -Livro de exercicios",
+    "autor": "Henrique Cesar Ulbrich",
+    "ano_publicacao": 2009,
+    "editora": "Digerati Books",
+    "criado_em": "2026-01-15T01:45:48.146Z",
+    "slug": "universidade-hacker-livro-de-exercicios",
+    "imagem": "livros/hacker.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 75,
+  "fields": {
+    "titulo": "Prince of Thorns",
+    "autor": "Mark Lawrence",
+    "ano_publicacao": 2013,
+    "editora": "Darkside",
+    "criado_em": "2026-01-15T01:46:45.496Z",
+    "slug": "prince-of-thorns",
+    "imagem": "livros/princeofthorns.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 76,
+  "fields": {
+    "titulo": "Cartas a Milena",
+    "autor": "Franz Kafka",
+    "ano_publicacao": 2023,
+    "editora": "Camelot",
+    "criado_em": "2026-01-15T01:48:25.866Z",
+    "slug": "cartas-a-milena",
+    "imagem": "livros/milena_camelot.png"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 77,
+  "fields": {
+    "titulo": "A Metamorfose",
+    "autor": "Franz Kafka",
+    "ano_publicacao": 2017,
+    "editora": "Novo Século",
+    "criado_em": "2026-01-15T01:50:16.967Z",
+    "slug": "a-metamorfose",
+    "imagem": "livros/metamorfosenss.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 78,
+  "fields": {
+    "titulo": "O Castelo",
+    "autor": "Franz Kafka",
+    "ano_publicacao": 2017,
+    "editora": "Novo Século",
+    "criado_em": "2026-01-15T01:50:56.593Z",
+    "slug": "o-castelo",
+    "imagem": "livros/O_castelo.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 79,
+  "fields": {
+    "titulo": "O Processo",
+    "autor": "Franz Kafka",
+    "ano_publicacao": 2017,
+    "editora": "Novo Século",
+    "criado_em": "2026-01-15T01:51:33.676Z",
+    "slug": "o-processo",
+    "imagem": "livros/processo.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 80,
+  "fields": {
+    "titulo": "A Metamorfose",
+    "autor": "Franz Kafka",
+    "ano_publicacao": 2019,
+    "editora": "Planeta Minotauro",
+    "criado_em": "2026-01-15T01:52:43.413Z",
+    "slug": "a-metamorfose--2",
+    "imagem": "livros/metamorfose.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 81,
+  "fields": {
+    "titulo": "Carta ao pai e outras histórias",
+    "autor": "Franz Kafka",
+    "ano_publicacao": 2025,
+    "editora": "Lafonte",
+    "criado_em": "2026-01-15T01:53:46.339Z",
+    "slug": "carta-ao-pai-e-outras-historias",
+    "imagem": "livros/cartapai.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 82,
+  "fields": {
+    "titulo": "Comportamento Animal",
+    "autor": "V.G Dethier, Eliot Stellar",
+    "ano_publicacao": 1988,
+    "editora": "Edgard Blucher",
+    "criado_em": "2026-01-15T01:55:18.843Z",
+    "slug": "comportamento-animal",
+    "imagem": "livros/companimal.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 83,
+  "fields": {
+    "titulo": "A Agressão",
+    "autor": "Konrad Lorenz",
+    "ano_publicacao": 1973,
+    "editora": "Moraes",
+    "criado_em": "2026-01-15T01:56:55.160Z",
+    "slug": "a-agressao",
+    "imagem": "livros/agressao.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 84,
+  "fields": {
+    "titulo": "A Peste",
+    "autor": "Albert Camus",
+    "ano_publicacao": 2017,
+    "editora": "Record",
+    "criado_em": "2026-01-15T01:58:07.310Z",
+    "slug": "a-peste",
+    "imagem": "livros/peste.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 85,
+  "fields": {
+    "titulo": "O mito de Sísifo",
+    "autor": "Albert Camus",
+    "ano_publicacao": 2018,
+    "editora": "Record",
+    "criado_em": "2026-01-15T01:58:55.165Z",
+    "slug": "o-mito-de-sisifo",
+    "imagem": "livros/sisifo.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 86,
+  "fields": {
+    "titulo": "O Estrangeiro",
+    "autor": "Albert Camus",
+    "ano_publicacao": 2017,
+    "editora": "Record",
+    "criado_em": "2026-01-15T01:59:55.579Z",
+    "slug": "o-estrangeiro",
+    "imagem": "livros/estrangeiro.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 87,
+  "fields": {
+    "titulo": "Vagabond - Vol 36",
+    "autor": "Takehiko Inoue",
+    "ano_publicacao": 2019,
+    "editora": "Panini",
+    "criado_em": "2026-01-15T02:01:25.022Z",
+    "slug": "vagabond-vol-36",
+    "imagem": "livros/vagabond.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 88,
+  "fields": {
+    "titulo": "Tokyo Ghoul:Re - Vol 1",
+    "autor": "Sui Ishida",
+    "ano_publicacao": 2014,
+    "editora": "YJC",
+    "criado_em": "2026-01-15T02:03:07.849Z",
+    "slug": "tokyo-ghoulre-vol-1",
+    "imagem": "livros/tokyoghoul.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 89,
+  "fields": {
+    "titulo": "Fairy Tail - Vol 62",
+    "autor": "Hiro Mashima",
+    "ano_publicacao": 2017,
+    "editora": "X",
+    "criado_em": "2026-01-15T02:04:40.481Z",
+    "slug": "fairy-tail-vol-62",
+    "imagem": "livros/fairytail.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 90,
+  "fields": {
+    "titulo": "Crime e Castigo",
+    "autor": "Dostoiévski",
+    "ano_publicacao": 2020,
+    "editora": "Camelot",
+    "criado_em": "2026-01-15T02:06:31.473Z",
+    "slug": "crime-e-castigo",
+    "imagem": "livros/crimecastigo.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 91,
+  "fields": {
+    "titulo": "Noites Brancas",
+    "autor": "Dostoiévski",
+    "ano_publicacao": 2024,
+    "editora": "34",
+    "criado_em": "2026-01-15T02:07:22.465Z",
+    "slug": "noites-brancas",
+    "imagem": "livros/noitesbrancas.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 92,
+  "fields": {
+    "titulo": "Vidas Secas",
+    "autor": "Graciliano Ramos",
+    "ano_publicacao": 2024,
+    "editora": "Lafonte",
+    "criado_em": "2026-02-05T17:52:17.211Z",
+    "slug": "vidas-secas",
+    "imagem": "livros/vidas_secas.jpg"
+  }
+},
+{
+  "model": "livros.sinopse",
+  "pk": 4,
+  "fields": {
+    "livro": 88,
+    "conteudo": "Tokyo Ghoul:Re acompanha Haise Sasaki, um investigador da CCG que esconde um passado ligado aos ghouls. Entre caçadas, conflitos internos e memórias fragmentadas, a linha entre humano e monstro se torna cada vez mais tênue",
+    "criado_em": "2026-01-15T02:31:54.817Z",
+    "autor": 1
+  }
+}
+]

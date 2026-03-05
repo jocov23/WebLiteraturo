@@ -24,7 +24,6 @@
 
   - **Backend/API:**
       - Django framework (Python 3.13)
-      - Django RESTful API
       - Docker & Docker-compose
       - MySql:8
       
@@ -45,9 +44,18 @@
     docker-compose up --build -d
   ```
 4. **Open your browser to http://localhost:8000 to view the project.**
-   ```
+
+  ```
     If any problem or doubt arise check guide.txt file!
-   ```
+  ```
+5. **If you want to load my registered books to see the site filled:**
+
+  ```
+    'docker-compose exec web bash' and then 'python manage.py loaddata fixtures/livros_nativos.json'
+    (check guide.txt if error/unsure)
+  ```
+   
+
 
 ## Contact
   - **E-mail:** jocov2309@gmail.com

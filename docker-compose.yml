@@ -18,7 +18,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    command: sh -c "python manage.py migrate && python manage.py runserver 0.0.0.0:8000 && python manage.py dumpdata --exclude admin.logentry --exclude sessions.session --exclude contenttypes --exclude auth.permission --indent 2 > fixtures/cadastrados.json"
+    command: sh -c "python manage.py migrate && python manage.py dumpdata --exclude admin.logentry --exclude sessions.session --exclude contenttypes --exclude auth.permission --indent 2 > fixtures/livros_locais.json && python manage.py runserver 0.0.0.0:8000 "
     restart: on-failure
     volumes:
     - ./app:/app
@@ -31,5 +31,5 @@ services:
 
 volumes:
   db_data:
-    external: true
-    name: catalogo-livros_db_data
+    #external: true
+    #name: catalogo-livros_db_data
