@@ -13,7 +13,7 @@ docker-compose up -d --build == initiate and start all the containers contained 
     #ps: its ok to show error when initializing the containers in the terminal, its because the container web start before
     #ps: container db, but its alright because its supossed to initialize sucefully even with that happening
 
-HOW TO LOAD ALREADY REGISTERED BOOKS
+HOW TO LOAD ALREADY REGISTERED BOOKS (delete previous registered users)
     #type 'docker-compose exec web bash' and then 'python manage.py loaddata fixtures/livros_nativos.json'
     #refresh page after that
 

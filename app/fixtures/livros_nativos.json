@@ -130,7 +130,7 @@
   "pk": 8,
   "fields": {
     "password": "pbkdf2_sha256$1000000$fnkIGeIjvwCnqtqMo2cR4i$jlVNSP/40iJISn5o1c0J4hJxuE8TphgJELTkmktzLzU=",
-    "last_login": "2026-01-06T17:04:21.205Z",
+    "last_login": "2026-03-12T20:30:11.007Z",
     "is_superuser": false,
     "username": "JOCOV",
     "first_name": "",
@@ -159,6 +159,19 @@
     "date_joined": "2026-03-05T19:59:21.916Z",
     "groups": [],
     "user_permissions": []
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 1,
+  "fields": {
+    "titulo": "ABC do desenvolvimento econômico",
+    "autor": "Robert J. Alexander",
+    "ano_publicacao": 1971,
+    "editora": "Fundo de Cultura",
+    "criado_em": "2026-03-12T20:13:06.765Z",
+    "slug": "abc-do-desenvolvimento-economico",
+    "imagem": "livros/abc_desenvolvimento-economico.jpg"
   }
 },
 {
@@ -968,12 +981,48 @@
   }
 },
 {
+  "model": "livros.livro",
+  "pk": 93,
+  "fields": {
+    "titulo": "O cão dos Baskervilles",
+    "autor": "Conan Doyle",
+    "ano_publicacao": 0,
+    "editora": "Companhia Melhoramentos",
+    "criado_em": "2026-03-12T20:30:43.128Z",
+    "slug": "o-cao-dos-baskervilles",
+    "imagem": "livros/baskerville_cIrvQwH.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 94,
+  "fields": {
+    "titulo": "Enxaqueca - Só tem quem quer",
+    "autor": "Alexandre Feldman",
+    "ano_publicacao": 2009,
+    "editora": "novo século",
+    "criado_em": "2026-03-12T20:31:44.420Z",
+    "slug": "enxaqueca-so-tem-quem-quer",
+    "imagem": "livros/enxaqueca.webp"
+  }
+},
+{
   "model": "livros.sinopse",
   "pk": 4,
   "fields": {
     "livro": 88,
     "conteudo": "Tokyo Ghoul:Re acompanha Haise Sasaki, um investigador da CCG que esconde um passado ligado aos ghouls. Entre caçadas, conflitos internos e memórias fragmentadas, a linha entre humano e monstro se torna cada vez mais tênue",
     "criado_em": "2026-01-15T02:31:54.817Z",
+    "autor": 1
+  }
+},
+{
+  "model": "livros.opiniao",
+  "pk": 1,
+  "fields": {
+    "livro": 1,
+    "conteudo": "Livro ok, Tópicos bem abordados. Autor muito \"lucido\" para seu tempo",
+    "criado_em": "2026-03-12T20:16:04.078Z",
     "autor": 1
   }
 }

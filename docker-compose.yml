@@ -18,7 +18,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    command: sh -c "python manage.py migrate && python manage.py dumpdata --exclude admin.logentry --exclude sessions.session --exclude contenttypes --exclude auth.permission --indent 2 > fixtures/livros_locais.json && python manage.py runserver 0.0.0.0:8000 "
+    command: sh -c "python manage.py migrate && python manage.py dumpdata --exclude admin.logentry --exclude sessions.session --exclude auth.permission --indent 2 > fixtures/livros_locais.json && python manage.py runserver 0.0.0.0:8000 "
     restart: on-failure
     volumes:
     - ./app:/app

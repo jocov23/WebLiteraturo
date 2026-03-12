@@ -24,7 +24,7 @@ def cadastro_usuario(request):
         user = User.objects.create_user(username=username, password=password)
         user.save()
         mensagem = 'Usuario criado com sucesso!'
-        return render(request, 'login.html', {'mensagem': mensagem})
+        return redirect('login')
     else:
          return render(request, 'cadastro.html', {'mensagem': mensagem})
 
