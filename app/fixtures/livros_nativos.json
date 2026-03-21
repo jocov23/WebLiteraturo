@@ -1007,6 +1007,32 @@
   }
 },
 {
+  "model": "livros.livro",
+  "pk": 95,
+  "fields": {
+    "titulo": "A morte de Ivan ilitch",
+    "autor": "Tolstói",
+    "ano_publicacao": 2021,
+    "editora": "Camelot",
+    "criado_em": "2026-03-21T14:46:12.633Z",
+    "slug": "a-morte-de-ivan-ilitch",
+    "imagem": "livros/ivan-ilitch.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 96,
+  "fields": {
+    "titulo": "O corvo",
+    "autor": "Edgar Allan Poe",
+    "ano_publicacao": 2020,
+    "editora": "Carvalho",
+    "criado_em": "2026-03-21T14:46:46.881Z",
+    "slug": "o-corvo",
+    "imagem": "livros/Corvo.jpg"
+  }
+},
+{
   "model": "livros.sinopse",
   "pk": 4,
   "fields": {

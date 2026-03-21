@@ -36,5 +36,5 @@ SMALL GUIDE TO UNDERSTAND THE CODE
  GUIDE FOR MYSELF(save books into livros_nativos.json)
     docker-compose exec web bash
     python manage.py dumpdata --exclude admin.logentry --exclude sessions.session --exclude contenttypes --exclude auth.permission --indent 2 > fixtures/livros_nativos.json
-
+    edit README (date)
  
