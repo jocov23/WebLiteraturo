@@ -130,7 +130,7 @@
   "pk": 8,
   "fields": {
     "password": "pbkdf2_sha256$1000000$fnkIGeIjvwCnqtqMo2cR4i$jlVNSP/40iJISn5o1c0J4hJxuE8TphgJELTkmktzLzU=",
-    "last_login": "2026-03-12T20:30:11.007Z",
+    "last_login": "2026-04-25T22:10:43.611Z",
     "is_superuser": false,
     "username": "JOCOV",
     "first_name": "",
@@ -1030,6 +1030,32 @@
     "criado_em": "2026-03-21T14:46:46.881Z",
     "slug": "o-corvo",
     "imagem": "livros/Corvo.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 97,
+  "fields": {
+    "titulo": "1894",
+    "autor": "George Orwell",
+    "ano_publicacao": 2021,
+    "editora": "Principis",
+    "criado_em": "2026-04-25T22:12:51.676Z",
+    "slug": "1894",
+    "imagem": "livros/1984.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 98,
+  "fields": {
+    "titulo": "As pessoas parecem flores finalmente",
+    "autor": "Bukowski",
+    "ano_publicacao": 2017,
+    "editora": "L&PM",
+    "criado_em": "2026-04-25T22:14:40.462Z",
+    "slug": "as-pessoas-parecem-flores-finalmente",
+    "imagem": "livros/bukowskiPessoasFlores.jpg"
   }
 },
 {
