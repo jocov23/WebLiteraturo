@@ -4,7 +4,7 @@
   "pk": 1,
   "fields": {
     "password": "pbkdf2_sha256$1000000$DCehbgSRC4I9uZz2nk1mfu$wu+PKN/GPjE3kSzZoqSIN+rVq4m2GpS3G7HtDU3LZFk=",
-    "last_login": "2026-03-02T17:26:34.787Z",
+    "last_login": "2026-07-17T00:13:23.855Z",
     "is_superuser": true,
     "username": "admin",
     "first_name": "",
@@ -1056,6 +1056,19 @@
     "criado_em": "2026-04-25T22:14:40.462Z",
     "slug": "as-pessoas-parecem-flores-finalmente",
     "imagem": "livros/bukowskiPessoasFlores.jpg"
+  }
+},
+{
+  "model": "livros.livro",
+  "pk": 99,
+  "fields": {
+    "titulo": "Androides sonham com ovelhas elétricas?",
+    "autor": "Philip K.Dick",
+    "ano_publicacao": 2014,
+    "editora": "Aleph",
+    "criado_em": "2026-07-17T00:16:06.928Z",
+    "slug": "androides-sonham-com-ovelhas-eletricas",
+    "imagem": "livros/androids_sonham_com_ovelhas_eletricas.png"
   }
 },
 {

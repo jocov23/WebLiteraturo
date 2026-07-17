@@ -1,7 +1,7 @@
 # WebLiteraturo
   This project is a full-stack web application built with the Django Framework to catalog my personal bookshelf with a bit of other features, like the registration, listing and information specifying of books together with a user registration-login system
   
-  When you clone this repository you will see that its database is filled with books, which reflects how many I have as of 04/25/2026, you can delete them all on the admin page (login details are in guide.txt) for your own use
+  When you clone this repository you will see that its database is filled with books, which reflects how many I have as of 07/16/2026, you can delete them all on the admin page (login details are in guide.txt) for your own use
 
 ## Features
   - **Registration and Login of Users:** It is possible to create a profile and have special perms with it (such as adding new books, synopses, opinions and adding pic to books without it)
